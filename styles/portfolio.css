@@ -2,7 +2,7 @@
 
 .portfolio-top{
 
-  height:700px;
+  height:350px;
   width:100%;
   background-image: url("../images/oil-painting-me2.jpg");
 }
@@ -233,7 +233,7 @@ h1{
   position:relative;
   color:white;
   text-align: center;
-  top:325px;
+  top:150px;
   margin-bottom:400px;
   }
 
