@@ -9,12 +9,36 @@
 
 .portfolio{
   margin-top:20px;
+  margin:0 auto;
 }
 
 .port-img{
   height:300px;
 
 }
+
+.grid{
+  margin:0 auto;
+}
+.grid-sizer,
+.grid-item {
+ width:33.33%;
+
+
+ }
+
+ .grid-item{
+   float:left;
+ }
+
+ .grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+ .clearfloat{
+   clear:both;
+ }
 
 h1{
   font-size: 4em;
@@ -75,4 +99,5 @@ a{
   .text{
     opacity:1;
   }
+
 }

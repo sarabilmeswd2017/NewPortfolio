@@ -6,17 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Sara Bilmes' Portfolio</title>
 
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  <div class="container-fluid landing-container">
+  <div class="container-fluid">
+    <div class="landing-top">
     <div class="header">
 
         <div class="nav-box"></div>
@@ -56,31 +63,73 @@
          </div> <!-- col-8 -->
        </div> <!-- row -->
       </div> <!-- landing words -->
+    </div> <!--landing-top -->
+    <!--  <div class="portfolio-scroll scrollme">
+        <div
+        class="animateme"
+        data-crop="false"
+        data-easing="easeinout"
+        data-from=".5"
+        data-opacity="0"
+			  data-scale="1.25"
+        data-to="0"
+        data-when="enter">
+        <h1>Portfolio</h2>
+      </div>
+    </div>-->
+
+
+        <!--<div class="scrollme">
+    <h2>Scroll me!</h2>
+    <div
+      class="animateme"
+      data-when="span"
+      data-from="0"
+      data-to="1"
+      data-easing="easeinout"
+      data-rotatey="360"
+    >
+      <h2>Portfolio</h2>
+    </div>
+  </div>-->
+  <section class="wrapper data-stellar-background-ratio="0.5"">
+    <h1>My Story</h1>
+
+      <p >As someone with a passion for creating, I find Web Development and Design
+        two things that excite me. Going from a blank text editor to a fully working
+        site makes me love what I do. With a background in the visual and the
+        technical, I am a perfect candidate for a web designer position. I
+        studied Biology and Art at Stern College, then continued courses at
+        Design Alive and at Bloc.</p>
+  </section>
+
+  <section class="wrapper wrapper-2 data-stellar-background-ratio="0.5"">
+    <h1>Web Development</h1>
+    <div class="btn btn3"><a href="portfolio.html">Development</a></div>
+  </section>
+  <section class="wrapper wrapper-3 data-stellar-background-ratio="0.5"">
+    <h1>Graphic Design</h1>
+    <div class="btn btn3"><a href="portfolio.html#design">Design</a></div>
+  </section>
 
 
 
-
-      <!--<div class="footer">
+      <div class="footer">
         <p>♥ copyright 2017</p>
-      </div>  -->
+      </div>
     </div> <!--container fluid -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
 
 
     <script src="scripts/main.js"></script>
-
+    <scripts src="scripts/scrollme.js"></scrip>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="scripts/jquery.stellar.min.js"></script>
+    <script>
+  		$.stellar();
+  	</script>
 
     </body>
     </html>

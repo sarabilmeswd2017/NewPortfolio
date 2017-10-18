@@ -1,40 +1,75 @@
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 /* Space out content a bit */
 body {
-/*  padding-top: 1.5rem;*/
-  padding-bottom: 1.5rem;
+
   font-family: 'Open Sans Condensed', sans-serif;
 
 }
 h1{
   font-family: 'Dosis', sans-serif;
+  font-size:3em;
 }
 
-.container{
+h2{
+  font-size:2em;
+}
+
+.container-fluid{
   width:100%;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
 
 
-/* Custom page header */
-.header {
-  padding-top:1em;
-  padding-bottom: 1rem;
-  /*border-bottom: .05rem solid #e5e5e5;*/
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
-
-}
 
 /* Custom page footer */
 .footer {
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   color: #777;
   border-top: .05rem solid #e5e5e5;
 
@@ -52,8 +87,8 @@ h1{
 
 }*/
 
-.landing-container{
-  height:100vh;
+.landing-top{
+  height:600px;
   width:100%;
   background-color: #231f55;
 }
@@ -85,6 +120,8 @@ right:300px;*/
 border:white solid 1px;
 background-color:none;
 position:absolute;
+padding:5px;
+border-radius:2px 2px 2px 2px;
 }
 
 .btn1{
@@ -98,37 +135,17 @@ position:absolute;
   top:130px;
 }
 
+
 a{
   color:white;
+  text-decoration:none;
 }
 a:hover{
   color:#563d7c;
 }
 
 
-.points{
- margin-left:400px;
 
-}
-
-.development{
-margin:1em;
-display:inline-block;
-}
-
-.development h2{
-  display:block;
-}
-
-.design{
-margin:1em;
-display:inline-block;
-
-}
-
-.design h2{
-  display:block;
-}
 
 .nav-two{
   width:100%;
@@ -178,7 +195,79 @@ display:inline-block;
 }
 
 
+.wrapper{
+  height:350px;
+  position:relative;
+}
 
+.wrapper p{
+  text-align:center;
+  padding-top:30px;
+  font-size:1.2em;
+}
+
+.wrapper h1{
+  text-align:center;
+  padding-top:50px;
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.wrapper-2, .wrapper-3 h1{
+  color:white;
+}
+
+
+
+
+
+.btn3{
+  height:50px;
+  width:150px;
+  margin-top:-25px;
+  margin-left:-75px;
+  left:50%;
+  top:50%;
+  position:absolute;
+  display:table;
+}
+
+.wrapper-2 a{
+  font-size:1.5em;
+  text-decoration:none;
+  display:table-cell;
+  vertical-align:middle;
+
+}
+
+.wrapper-3 a{
+  font-size:1.5em;
+  text-decoration:none;
+  display:table-cell;
+  vertical-align:middle;
+
+}
+
+p{
+  line-height:1.5em;
+}
+
+.wrapper-3{
+  background-image:url(../images/oil-painting-me2.jpg);
+  height:400px;
+}
+.wrapper-2{
+  background-image:url(../images/bloc_jams_bg.jpg);
+
+  height:400px;
+  }
+
+section{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
 /*.hidden-nav-1:hover + .hidden-nav-2{
   right:200px;
   -webkit-transition:all 0.5s;
@@ -285,6 +374,22 @@ ul li{
   margin: 2rem 0;
 }*/
 
+.portfolio-scroll{
+  height:250px;
+  width:100%;
+  background-color:#404077;
+  top:450px;
+  position:relative;
+
+}
+
+.portfolio-scroll h1{
+  text-align:center;
+  color:white;
+  top:50%;
+  position:relative;
+  bottom:50%;
+}
 
 
 /* Supporting marketing content */

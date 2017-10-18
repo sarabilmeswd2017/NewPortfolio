@@ -279,3 +279,14 @@ $(document).ready(function(){
         $('.turkey .text').slideToggle();
   });
 });
+
+var $grid = $('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+});
+
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});  
