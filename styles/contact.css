@@ -11,7 +11,7 @@ h1{
     color:white;
     text-align: center;
     top:150px;
-    
+
 }
 
 /*.contact-container{
@@ -29,13 +29,10 @@ form{
    width:500px;
    margin:0 auto;
    position:relative;
-
-
-
-
-}
+ }
 
 .contact-form{
     background-color: #231f55;
-    height:100vh;
+    height:350px;
+
 }

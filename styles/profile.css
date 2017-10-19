@@ -14,6 +14,10 @@ h1{
 
 }
 
+p{
+  line-height:1.5em;
+}
+
 .headshot{
     float:left;
     margin-top:5px;

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.blocjams').click(function(){
-        $('.blocjams-info').slideToggle('slow');
+        $('.blocjams-info').slideToggle();
     });
 });
 
@@ -289,4 +289,4 @@ var $grid = $('.grid').masonry({
 
 $grid.imagesLoaded().progress( function() {
   $grid.masonry();
-});  
+});

@@ -186,7 +186,7 @@ a:hover{
 .hidden-nav-1{
   display:none;
   position:fixed;
-  right:120px;
+  right:110px;
   top:170px;
   transform: scale(1.5,1.5);
   line-height: 2em;
@@ -218,7 +218,9 @@ a:hover{
 }
 
 
-
+.mystory{
+  padding:30px;
+}
 
 
 .btn3{
@@ -237,7 +239,7 @@ a:hover{
   text-decoration:none;
   display:table-cell;
   vertical-align:middle;
-
+  text-align:center;
 }
 
 .wrapper-3 a{
@@ -245,7 +247,7 @@ a:hover{
   text-decoration:none;
   display:table-cell;
   vertical-align:middle;
-
+  text-align:center;
 }
 
 p{
