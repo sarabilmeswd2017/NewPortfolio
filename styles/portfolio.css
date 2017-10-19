@@ -95,6 +95,10 @@ a{
   max-width:100%;
 }
 
+ul{
+  line-height:1.5em;
+}
+
 @media (max-width:768px) {
   .text{
     opacity:1;
