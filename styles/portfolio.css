@@ -96,6 +96,26 @@ a{
   max-width:100%;
 }
 
+a{
+  color:white;
+}
+
+.card-header{
+  background-color:#201b56;
+  height:70px;
+}
+
+.card-block a{
+  color:#158c37;
+}
+
+.top-img{
+  width:500px;
+  left:50%;
+  margin-left:-250px;
+  position:relative;
+}
+
 ul{
   line-height:1.5em;
 }
