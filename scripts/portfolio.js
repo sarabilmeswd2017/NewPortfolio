@@ -82,11 +82,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.master-art').hover(function(){
-        $('.master-art .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.master-art').hover(function(){
+//         $('.master-art .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.prodigy').click(function(){
@@ -94,11 +94,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.prodigy').hover(function(){
-        $('.prodigy .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.prodigy').hover(function(){
+//         $('.prodigy .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.infographic').click(function(){
@@ -106,11 +106,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.infographic').hover(function(){
-        $('.infographic .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.infographic').hover(function(){
+//         $('.infographic .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.eureka').click(function(){
@@ -118,11 +118,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.eureka').hover(function(){
-        $('.eureka .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.eureka').hover(function(){
+//         $('.eureka .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.magazine').click(function(){
@@ -130,11 +130,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.magazine').hover(function(){
-        $('.magazine .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.magazine').hover(function(){
+//         $('.magazine .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.martine').click(function(){
@@ -142,11 +142,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.martine').hover(function(){
-        $('.martine .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.martine').hover(function(){
+//         $('.martine .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.nezira').click(function(){
@@ -154,11 +154,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.nezira').hover(function(){
-        $('.nezira .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.nezira').hover(function(){
+//         $('.nezira .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.advertising').click(function(){
@@ -166,11 +166,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.advertising').hover(function(){
-        $('.advertising .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.advertising').hover(function(){
+//         $('.advertising .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.paula').click(function(){
@@ -178,11 +178,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.paula').hover(function(){
-        $('.paula .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.paula').hover(function(){
+//         $('.paula .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.purim').click(function(){
@@ -190,11 +190,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.purim').hover(function(){
-        $('.purim .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.purim').hover(function(){
+//         $('.purim .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.stephanie').click(function(){
@@ -202,11 +202,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.stephanie').hover(function(){
-        $('.stephanie .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.stephanie').hover(function(){
+//         $('.stephanie .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.packaging').click(function(){
@@ -214,11 +214,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.packaging').hover(function(){
-        $('.packaging .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.packaging').hover(function(){
+//         $('.packaging .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.kedma').click(function(){
@@ -226,11 +226,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.kedma').hover(function(){
-        $('.kedma .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.kedma').hover(function(){
+//         $('.kedma .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.treepodia').click(function(){
@@ -238,11 +238,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.treepodia').hover(function(){
-        $('.treepodia .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.treepodia').hover(function(){
+//         $('.treepodia .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.dejanu').click(function(){
@@ -250,23 +250,23 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.dejanu').hover(function(){
-        $('.dejanu .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.dejanu').hover(function(){
+//         $('.dejanu .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.blocitoff').click(function(){
         $('#blocitoff-modal').modal();
   });
 });
-
-$(document).ready(function(){
-    $('.blocitoff').hover(function(){
-        $('.blocitoff .text').slideToggle();
-  });
-});
+//
+// $(document).ready(function(){
+//     $('.blocitoff').hover(function(){
+//         $('.blocitoff .text').slideToggle();
+//   });
+// });
 
 $(document).ready(function(){
     $('.turkey').click(function(){
@@ -274,11 +274,11 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
-    $('.turkey').hover(function(){
-        $('.turkey .text').slideToggle();
-  });
-});
+// $(document).ready(function(){
+//     $('.turkey').hover(function(){
+//         $('.turkey .text').slideToggle();
+//   });
+// });
 
 var $grid = $('.grid').masonry({
   // options

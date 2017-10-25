@@ -7,20 +7,20 @@
   });
 //});
 
-$(document).ready(function(){
-  $('.ion-navicon-round').hover(function(){
-    $('.nav-box').show();
-  }, function(){
-    $('.nav-box').hide();
-  });
- });
+// $(document).ready(function(){
+//   $('.ion-navicon-round').hover(function(){
+//     $('.nav-box').show();
+//   }, function(){
+//     $('.nav-box').hide();
+//   });
+//  });
 
 
-$(document).ready(function(){
-  $('.ion-navicon-round').click(function(){
-    $('.nav-rectangle').toggle();
-  });
-});
+// $(document).ready(function(){
+//   $('.ion-navicon-round').click(function(){
+//     $('.nav-rectangle').toggle();
+//   });
+// });
 
 
 /*$(document).ready(function(){
